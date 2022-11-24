@@ -1,0 +1,74 @@
+Büyük veri yaşam döngüsü ve proje yönetimi 
+Hayat nasıl bir döngü içindeyse  insanlarin , tabiyatın ve mevsimlerin de  bir döngüsü vardır dolayısıyla, bu bize Yazılım’in da bir yaşam döngüsü olduğunu göstermektedir. Doğru analiz edilmesi durumunda başarıya bizi götürecektir.
+ Herhangi bir sistemi geliştirirken bu yaşam döngüsüne bakma da fayda vardır. 
+Aşamalarına geçecek olursak:
+1-	 (Planlama ve İhtiyaç Analizi): Fikirlerin ortaya çıktığı aşamadır. işin projelendirilmesi fikrin tartışıldığı aşamadır . Müşteriden gelen fikirler de göz önünde bulundurularak ekibin kıdemli üyeleri (expert) tarafından gerçekleştirilir. 
+
+2-	 (Gereksinimleri Tanımlama): İhtiyaç analizi yapıldıktan sonraki adımdır. FRD ve BRD en kucuk User Case lere kadar hazirlanir
+
+3-	 (Ürün dizaynını tasarlama) : BRD (Business Requirement Document) Dizaynırların geliştirilecek ürün için en iyi dizaynla ortaya çıkacakları referanstır. BRD'de belirtilen gereksinimlere dayanarak, ürün mimarisi için genellikle birden fazla tasarım yaklaşımı taslağı oluşturulur.
+
+4-	 (Ürünü oluşturma veya geliştirme): SDLC'ninbu aşamasında oluşum, gelişme başlar ve ürün inşa edilir.  Burada artık kodlamalara geçildiği,  aslında sistemin hayata geçirildiği, ilk örneklerini ortaya çıkarıldığı aşamadır. 
+
+5-	 (Ürünü test etme) : Bu aşama, ürün BRD'de tanımlanan kalite standartlarına ulaşıncaya kadar, ürün kusurlarının rapor edildiği, izlendiği, düzeltildigi ve tekrar test edildiği aşamadir. 
+
+6-	 (Ürünü pazarlama ve bakımı) : Ürün piyasaya sunulduktan sonra mevcut müşteri tabanı için bakımı yapılır. Muşteriden gelen feedbackler ve Teknolojik Gelişmeler ile ihtiyaçlar yeniden belirlenir ve döngü yeniden başlar.
+
+SDLC TEAM
+1) Project Manager (PM) Proje Yöneticisi  
+2) Business Analyst (BA) İş Analisti 
+3) Geliştirme Takımı : 
+Designer ,  Data Analist ,  Developer Tester
+Bir Layf Saykıl olarak düşündüğümüzde bu yaşam döngüsün içinde birden fazla metotlar geliştirilmiş ve geliştirilmeye devam edilmektedir.
+
+ YAZILIM GELİŞTİRMEDE KULLANILAN MODELLER
+Yazılım geliştirme modellerinin kendine özgü avantaj ve dezavantajları bulunmaktadır. Dikkat edilmesi gereken nokta çözüm istenen ürüne ve sürece uygun modelin seçilebilmesidir.
+1-	** Şelale modeli (Waterfall) proje yönetim süreci; analiz, tasarım, yazılım, test, yayın gibi fazlardan oluşur
+** Geleneksel bir yöntemdir; süreçler tıpkı bir şelale gibi yukarıdan aşağıya doğrusal olarak işler. 
+** Proje sahibi, proje tamamlandıktan sonra ürünü görebilir. 
+**AVANTAJLARI
+•	Kullanımı ve yönetimi kolaydır
+•	Küçük projeler için daha iyidir
+•	**DEZAVANAJLARI
+•	Değişim ve yenilik zordur
+•	Projenin bitimine kadar çalışan ürün yoktur
+
+2-	V modeli, Doğrulama ve Geçerleme modeli anlamına gelir. Tıpkı şelale modelinde olduğu gibi yazılım yaşam döngüsü adımları V-şeklinde sıralı bir şekilde uygulanır. Bu modelde de her aşama bir sonraki aşama başlamadan önce tamamlanmalıdır. V-Modelinin en temel özelliği “ürünün test edilmesi kendisine karşılık gelen geliştirme aşamasına paralel olarak planlanmaktadır.”
+**AVANTAJLARI    
+•	Planlama ve test tasarımı gibi test faaliyetleri kodlamadan önce gerçekleştirilir
+•	Hataların bulunması erken aşamada tespit edilir.
+**DEZAVANAJLARI
+•	Uygulama şekli oldukça katı, kesin kurallara bağlıdır
+•	Yazılım şelalede olduğu gibi geliştirme aşamasında geliştirilir, bu nedenle yazılımın erken prototipleri üretilmez.
+
+3-	SPIRAL MODEL : Tasarımı doğrusal bir süreç olarak gören diğer modellerin aksine, bu model spiral bir süreç olarak görür.. Her spiralin sonunda, mevcut spiralin gözden geçirilebilmesi ve bir sonraki aşamanın planlanabilmesi için gözden geçirme aşaması vardır.
+**AVANTAJLARI         
+•	Risk analizi yapmaktadır
+•	Bu yazılım tasarım modeli, büyük yazılım projelerini tasarlamak ve yönetmek için daha uygundur
+**DEZAVANAJLARI
+•	Risk analizi yüksek uzmanlık gerektirir.
+•	Kullanması pahalı bir modeldir
+•	******************* en son buraya kadardı
+
+4-	PROTOTİP MODEL: Bu modelde çabuk tasarım, prototip geliştirme ve müşteri değerlendirilmesinden sonra prototip iyileştirilip referans ürün ortaya konur
+Müşteriye sunulan ön ürün; ilk ürün olarak kabul edilir, yada iptal edilip en baştan yapılabilir.
+
+5-	Agile Metodoloji (Çevik Metodoloji) yazılım sistemlerini etkili ve verimli bir şekilde modellemeye ve dokümantasyonunu yapmaya yönelik, pratiğe dayalı bir yöntemdir.
+Aşırı kuralcı klasik yazılım süreç modellerine tepki olarak ortaya çıkmıştır. Yazılımlar daha yüksek maliyetli ve daha yavaş geliştirilmekteydi. Yazılım geliştirme sürecini hızlandırmak, daha etkin kullanmak ve gerektiğinde dokümante etmek amacıyla bir çok yaklaşım ortaya çıkmıştır.
+
+BENI DINLEDIGINIZ ICIN TESEKKUR EDERIM
+
+3. Gun
+O Kadar zor olmasa gerek BENI DINLEDIGINIZ ICIN TESEKKUR EDERIM
+SDLC TEAM
+1) Project Manager (PM) Proje Yöneticisi  
+2) Business Analyst (BA) İş Analisti 
+3) Geliştirme Takımı : 
+
+3. Gun 2. adim 
+
+Büyük veri yaşam döngüsü ve proje yönetimi fahri ersoz
+
+
+
+
